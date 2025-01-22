@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id = 'head'> blank
+  </header>
+  <div class="container">
+    <h1>DSA Visualizer</h1>
+    <div class="controls">
+       <Span id = span> Enter the array according to you</Span>
+       <input id="input" type="text" placeholder="Enter numbers separated by spaces">
+      <button id = 'ok', onclick="getown()">Sumbit</button>
+      <button onclick="generateArray()">Generate Array</button>
+      <button onclick="visualizeBubbleSort()">Sort</button>
+    </div>
+    <div class="array-container" id="array-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
